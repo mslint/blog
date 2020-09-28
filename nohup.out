@@ -559,3 +559,7 @@ Require stack:
 [0mGET / [32m200 [0m0.809 ms - 1730[0m
 [0mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m0.926 ms - 883[0m
 [0mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m0.932 ms - 883[0m
+[0mGET /bloglist [32m200 [0m1.079 ms - 1749[0m
+[0mGET /images/construction.gif [32m200 [0m0.664 ms - 16429[0m
+[0mGET /favicon.ico [33m404 [0m0.863 ms - 883[0m
+[0mGET / [32m200 [0m0.838 ms - 1730[0m
