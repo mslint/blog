@@ -7,5 +7,7 @@ var blogCtrl = require('../controllers/blog');
 router.get('/', homeCtrl.home);
 router.get('/bloglist', blogCtrl.bloglist);
 router.get('/blogadd', blogCtrl.blogadd);
+router.get('/blogedit', blogCtrl.blogedit);
+router.get('/blogdelete', blogCtrl.blogdelete);
 
 module.exports = router;
