@@ -890,3 +890,213 @@ Mongoose connection error: MongoNetworkError: failed to connect to server [local
 [0mGET / [32m200 [0m1.800 ms - 1934[0m
 [0mGET / [32m200 [0m0.820 ms - 1934[0m
 [0mGET /config/getuser?index=0 [33m404 [0m0.966 ms - 1418[0m
+[0mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [0m0.966 ms - 1418[0m
+[0mGET /phpMyAdmin/scripts/setup.php [33m404 [0m0.934 ms - 1418[0m
+[0mGET /phpmyadmin/scripts/setup.php [33m404 [0m0.949 ms - 1418[0m
+[0mGET /pma/scripts/setup.php [33m404 [0m0.959 ms - 1418[0m
+[0mGET /myadmin/scripts/setup.php [33m404 [0m0.899 ms - 1418[0m
+[0mGET /MyAdmin/scripts/setup.php [33m404 [0m0.928 ms - 1418[0m
+[0mGET / [32m200 [0m1.787 ms - 1934[0m
+[0mGET / [32m200 [0m0.757 ms - 1934[0m
+[0mGET / [32m200 [0m0.898 ms - 1934[0m
+[0mGET /boaform/admin/formLogin?username=admin&psd=admin [33m404 [0m1.011 ms - 1418[0m
+[0mGET / [32m200 [0m0.762 ms - 1934[0m
+[0mGET / [32m200 [0m0.796 ms - 1934[0m
+[0mGET /hudson [33m404 [0m1.008 ms - 1418[0m
+[0mGET / [32m200 [0m0.880 ms - 1934[0m
+[0mGET / [32m200 [0m0.856 ms - 1934[0m
+[0mGET / [32m200 [0m1.672 ms - 1934[0m
+[0mGET / [32m200 [0m0.796 ms - 1934[0m
+[0mGET / [32m200 [0m0.839 ms - 1934[0m
+[0mHEAD / [32m200 [0m0.792 ms - 1934[0m
+[0mGET / [32m200 [0m0.909 ms - 1934[0m
+[0mGET /.env [33m404 [0m0.906 ms - 1418[0m
+[0mGET /v2/_catalog [33m404 [0m0.991 ms - 1418[0m
+[0mGET / [32m200 [0m1.194 ms - 1934[0m
+[0mGET /.git/config [33m404 [0m1.628 ms - 1418[0m
+[0mGET / [32m200 [0m1.838 ms - 1934[0m
+[0mGET / [32m200 [0m0.853 ms - 1934[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.955 ms - 1418[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m0.841 ms - 1934[0m
+[0mGET / [32m200 [0m0.848 ms - 1934[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.790 ms - 1934[0m
+[0mGET /boaform/admin/formLogin?username=user&psd=user [33m404 [0m0.987 ms - 1418[0m
+[0mGET / [32m200 [0m0.873 ms - 1934[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m1.014 ms - 1418[0m
+[0mGET / [32m200 [0m1.664 ms - 1934[0m
+[0mGET http://www.proxylists.net/proxyjudge.php [33m404 [0m1.340 ms - 1418[0m
+[0mGET / [32m200 [0m0.942 ms - 1934[0m
+[0mGET / [32m200 [0m0.851 ms - 1934[0m
+[0mPOST /api/jsonws/invoke [33m404 [0m0.960 ms - 1413[0m
+[0mGET / [32m200 [0m0.928 ms - 1934[0m
+[0mGET http://163.172.88.110:41298/1.txt [33m404 [0m0.954 ms - 1418[0m
+[0mGET http://163.172.88.110:41298/1.txt [33m404 [0m0.944 ms - 1418[0m
+[0mGET http://163.172.88.110:41298/1.txt [33m404 [0m0.955 ms - 1418[0m
+[0mGET / [32m200 [0m0.823 ms - 1934[0m
+[0mGET / [32m200 [0m1.669 ms - 1934[0m
+[0mGET /admin/config.php?password%5B0%5D=admin&username=admin [33m404 [0m0.925 ms - 1418[0m
+[0mGET / [32m200 [0m0.899 ms - 1934[0m
+[0mPOST /GponForm/diag_Form?images/ [33m404 [0m0.770 ms - 1413[0m
+[0mGET / [32m200 [0m0.841 ms - 1934[0m
+[0mGET / [32m200 [0m0.897 ms - 1934[0m
+[0mGET / [32m200 [0m0.849 ms - 1934[0m
+[0mGET / [32m200 [0m0.861 ms - 1934[0m
+[0mGET / [32m200 [0m1.736 ms - 1934[0m
+[0mGET / [32m200 [0m0.675 ms - 1934[0m
+[0mGET / [32m200 [0m0.828 ms - 1934[0m
+[0mGET /favicon.ico [33m404 [0m0.966 ms - 1418[0m
+[0mGET /blogadd [32m200 [0m1.425 ms - 1953[0m
+[0mGET /images/construction.gif [32m200 [0m1.487 ms - 16429[0m
+[0mGET /bloglist [32m200 [0m1.746 ms - 4518[0m
+[0mGET /images/postImage.png [32m200 [0m2.178 ms - 170047[0m
+[0mGET /blogedit [32m200 [0m3.693 ms - 1994[0m
+[0mGET /images/construction.gif [36m304 [0m0.436 ms - -[0m
+[0mGET /blogdelete [32m200 [0m5.123 ms - 1920[0m
+[0mGET /images/construction.gif [36m304 [0m0.465 ms - -[0m
+[0mGET / [36m304 [0m0.839 ms - -[0m
+[0mGET /blogadd [36m304 [0m0.908 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.414 ms - -[0m
+[0mGET /bloglist [36m304 [0m2.759 ms - -[0m
+[0mGET /images/postImage.png [36m304 [0m0.385 ms - -[0m
+[0mGET /blogedit [36m304 [0m1.158 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.392 ms - -[0m
+[0mGET /blogdelete [36m304 [0m0.904 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.339 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.707 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.390 ms - -[0m
+[0mGET /blogdelete [36m304 [0m0.894 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.351 ms - -[0m
+[0mGET /blogedit [36m304 [0m0.880 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.385 ms - -[0m
+[0mGET / [36m304 [0m5.106 ms - -[0m
+[0mGET / [32m200 [0m0.984 ms - 1955[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.951 ms - 1418[0m
+[0mPOST /goform/webLogin [33m404 [0m0.948 ms - 1413[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m1.852 ms - 1955[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.881 ms - 1955[0m
+[0mGET / [32m200 [0m0.846 ms - 1955[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.871 ms - 1418[0m
+[0mGET /portal/redlion [33m404 [0m0.935 ms - 1418[0m
+[0mGET / [32m200 [0m4.922 ms - 1955[0m
+[0mGET / [32m200 [0m0.887 ms - 1955[0m
+[0mGET / [32m200 [0m0.874 ms - 1955[0m
+[0mGET / [32m200 [0m1.674 ms - 1955[0m
+[0mGET / [32m200 [0m0.851 ms - 1955[0m
+[0mGET / [32m200 [0m0.799 ms - 1955[0m
+[0mPOST /api/jsonws/invoke [33m404 [0m0.908 ms - 1413[0m
+[0mGET / [36m304 [0m0.879 ms - -[0m
+[0mGET / [32m200 [0m8.071 ms - 119958[0m
+[0mGET /EmmanouilRichman/blog/security/overall-count [33m404 [0m7.206 ms - 112200[0m
+[0mGET /EmmanouilRichman/blog/contributors/Lab4/app_server/views/home.ejs [33m404 [0m6.477 ms - 112200[0m
+[0mGET /socket-worker.js [33m404 [0m5.248 ms - 112200[0m
+[0mGET /users/mslint/feature_preview/indicator_check [33m404 [0m5.375 ms - 112200[0m
+[0mGET /opensearch.xml [33m404 [0m5.433 ms - 112200[0m
+[0mGET /users/EmmanouilRichman/hovercard?subject=repository%3A294843747&current_path=%2F [33m404 [0m5.684 ms - 112200[0m
+[0mGET /users/EmmanouilRichman/hovercard?subject=repository%3A294843747&current_path=%2F [33m404 [0m5.790 ms - 112200[0m
+[0mGET /bloglist [32m200 [0m10.117 ms - 128201[0m
+[0mGET /EmmanouilRichman/blog/contributors/Lab4/app_server/views/blog-list.ejs [33m404 [0m5.686 ms - 112200[0m
+[0mGET /EmmanouilRichman/blog/security/overall-count [33m404 [0m6.314 ms - 112200[0m
+[0mGET /users/mslint/feature_preview/indicator_check [33m404 [0m5.081 ms - 112200[0m
+[0mGET /socket-worker.js [33m404 [0m4.724 ms - 112200[0m
+[0mGET /users/EmmanouilRichman/hovercard?subject=repository%3A294843747&current_path=%2Fbloglist [33m404 [0m5.160 ms - 112200[0m
+[0mGET / [32m200 [0m7.213 ms - 119958[0m
+[0mGET / [32m200 [0m5.320 ms - 119958[0m
+[0mGET /blogedit [31m500 [0m4.672 ms - 2495[0m
+[0mGET /bloglist [31m500 [0m2.185 ms - 2242[0m
+[0mGET /blogdelete [31m500 [0m6.746 ms - 2517[0m
+[0mGET /blogedit [31m500 [0m7.141 ms - 2495[0m
+[0mGET / [32m200 [0m1.364 ms - 2183[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.588 ms - 4661[0m
+[0mGET /blogadd [32m200 [0m2.157 ms - 2596[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.479 ms - -[0m
+[0mGET /bloglist [31m500 [0m1.908 ms - 2242[0m
+[0mGET /bloglist [31m500 [0m1.567 ms - 2242[0m
+[0mGET / [36m304 [0m1.240 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mGET / [36m304 [0m1.060 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.523 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.292 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mPOST /blogadd [33m404 [0m1.171 ms - 1412[0m
+[0mGET /bloglist [31m500 [0m1.501 ms - 2242[0m
+[0mGET / [36m304 [0m11.883 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.472 ms - -[0m
+[0mGET / [32m200 [0m1.294 ms - 2449[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.491 ms - -[0m
+[0mGET /blogadd [32m200 [0m1.325 ms - 2862[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.371 ms - -[0m
+[0mGET /bloglist [31m500 [0m1.874 ms - 2242[0m
+[0mGET /blogedit [31m500 [0m1.734 ms - 2495[0m
+[0mGET /blogdelete [31m500 [0m1.794 ms - 2517[0m
+[0mGET /blogadd [36m304 [0m1.360 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.416 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.831 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
+[0mGET /bloglist [31m500 [0m1.883 ms - 2242[0m
+[0mGET /bloglist [31m500 [0m1.475 ms - 2242[0m
+[0mGET /bloglist [31m500 [0m1.570 ms - 2242[0m
+[0mGET /bloglist [31m500 [0m1.555 ms - 2242[0m
+[0mGET /bloglist [31m500 [0m1.445 ms - 1960[0m
+[0mGET /bloglist [31m500 [0m1.850 ms - 2396[0m
+[0mGET /blogdelete [31m500 [0m1.823 ms - 2517[0m
+[0mGET /bloglist [31m500 [0m1.884 ms - 2396[0m
+[0mGET /blogedit [31m500 [0m1.738 ms - 2495[0m
+[0mGET /blogdelete [31m500 [0m2.305 ms - 2517[0m
+[0mGET /blogedit [31m500 [0m1.511 ms - 2495[0m
+[0mGET /blogedit [31m500 [0m1.447 ms - 2495[0m
+[0mGET /bloglist [31m500 [0m1.890 ms - 2281[0m
+[0mGET /blogedit [31m500 [0m1.548 ms - 2495[0m
+[0mGET /blogedit [31m500 [0m2.170 ms - 2495[0m
+[0mGET /bloglist [31m500 [0m1.836 ms - 2281[0m
+[0mGET /bloglist [31m500 [0m2.400 ms - 2430[0m
+[0mGET /bloglist [31m500 [0m1.841 ms - 2256[0m
+[0mGET /bloglist [31m500 [0m6.731 ms - 2256[0m
+[0mGET /bloglist [31m500 [0m2.061 ms - 2256[0m
+[0mGET /bloglist [31m500 [0m1.394 ms - 2256[0m
+[0mGET / [32m200 [0m5.072 ms - 2449[0m
+[0mGET /bloglist [31m500 [0m1.406 ms - 2256[0m
+[0mGET /bloglist [31m500 [0m1.467 ms - 2256[0m
+[0mGET /blogedit [31m500 [0m1.476 ms - 2495[0m
+[0mGET /blogdelete [31m500 [0m2.122 ms - 2517[0m
+[0mGET /bloglist [31m500 [0m1.431 ms - 2256[0m
+[0mPOST /blogadd [33m404 [0m1.076 ms - 1412[0m
+[0mPOST /blogadd [33m404 [0m1.002 ms - 1412[0m
+[0mGET /bloglist [31m500 [0m1.557 ms - 2256[0m
+[0mGET /blogedit [31m500 [0m1.464 ms - 2495[0m
+[0mGET /blogdelete [31m500 [0m2.228 ms - 2517[0m
+[0mGET /blogdelete [31m500 [0m1.389 ms - 2517[0m
+[0mGET /blogdelete [31m500 [0m1.459 ms - 2517[0m
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'request'
+Require stack:
+- /home/bitnami/blog/app_server/controllers/blog.js
+- /home/bitnami/blog/app_server/routes/index.js
+- /home/bitnami/blog/app.js
+- /home/bitnami/blog/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blog/app_server/controllers/blog.js:1:15)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blog/app_server/routes/index.js:4:16)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blog/app_server/controllers/blog.js',
+    '/home/bitnami/blog/app_server/routes/index.js',
+    '/home/bitnami/blog/app.js',
+    '/home/bitnami/blog/bin/www'
+  ]
+}

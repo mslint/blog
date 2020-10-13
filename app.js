@@ -3,9 +3,12 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var bodyParser = require('body-parser');
+require('./app_api/models/db');
 var routes = require('./app_server/routes/index');
+var routes_api = require('./app_api/routes/index');
 
-require('./app_server/models/db',{useUnifiedTopology: true});
+//require('./app_server/models/db',{useUnifiedTopology: true});
 var app = express();
 
 //view engine setup
@@ -19,6 +22,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+app.use('/api', routes_api);
 
 // catch 404 and forward to error handler
    //callback
