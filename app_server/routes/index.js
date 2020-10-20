@@ -11,10 +11,10 @@ router.get('/bloglist', blogCtrl.blogList);
 router.get('/blogadd', blogCtrl.blogAdd);
 router.post('/blogadd', blogCtrl.addBlog);
 
-router.get('/blogedit:blogid', blogCtrl.blogEdit);
-router.post('/blogedit:blogid', blogCtrl.editPost);
+router.get('/blogedit/:blogid', blogCtrl.blogEdit);
+router.post('/blogedit/:blogid', blogCtrl.editPost);
 
-router.get('/blogdelete:blogid', blogCtrl.blogDelete);
-router.post('/blogdelete:blogid', blogCtrl.deletePost);
+router.get('/blogdelete/:blogid', blogCtrl.blogDelete);
+router.post('/blogdelete/:blogid', blogCtrl.deletePost);
 
 module.exports = router;

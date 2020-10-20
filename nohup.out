@@ -627,3 +627,721 @@ Mongoose connected to mongodb://blogUser:password@localhost/blog
 [0mGET /images/postImage.png [36m304 [0m1.345 ms - -[0m
 [0mGET / [32m200 [0m1.412 ms - 1934[0m
 [0mGET /blogedit [33m404 [0m2.959 ms - 1418[0m
+(node:31658) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogUser:password@localhost/blog
+(node:31673) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Port 80 is already in use
+(node:31704) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogUser:password@localhost/blog
+[0mGET / [36m304 [0m14.100 ms - -[0m
+[0mGET /blogadd [36m304 [0m3.125 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.285 ms - -[0m
+[0mGET //api/blogs [33m404 [0m10.467 ms - 1418[0m
+[0mGET /bloglist [32m200 [0m39.192 ms - 613423[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.487 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.410 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m19.596 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.483 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.310 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m19.209 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.459 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.142 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m17.333 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.383 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.290 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.412 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.797 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m32.986 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.448 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.203 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m16.862 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.177 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m16.849 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.433 ms - -[0m
+[0mGET /blogedit [33m404 [0m1.118 ms - 1418[0m
+[0mGET /blogdelete/ [33m404 [0m1.053 ms - 1418[0m
+[0mGET //api/blogs [33m404 [0m1.213 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m15.673 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.438 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.872 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.553 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.100 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m15.945 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.438 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.194 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.370 ms - -[0m
+[0mGET / [36m304 [0m1.390 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.103 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.344 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.114 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m16.852 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.425 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.121 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m15.957 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.368 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.187 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m15.951 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.371 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.101 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m16.767 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.358 ms - -[0m
+[0mGET / [36m304 [0m1.003 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.136 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.037 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m15.830 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.481 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.075 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m15.542 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.608 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.541 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m18.194 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.469 ms - -[0m
+[0mGET //api/blogs [33m404 [0m1.145 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m18.823 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.436 ms - -[0m
+[0mGET /blogedit/ [33m404 [0m1.683 ms - 1418[0m
+[0mGET /blogedit/ [33m404 [0m1.032 ms - 1418[0m
+[0mGET //api/blogs [33m404 [0m1.053 ms - 1418[0m
+[0mGET /bloglist [32m200 [0m17.998 ms - 613425[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.467 ms - -[0m
+[0mGET /blogedit [33m404 [0m1.102 ms - 1418[0m
+[0mGET /blogdelete [33m404 [0m1.164 ms - 1418[0m
+[0mGET //api/blogs [33m404 [0m1.057 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m17.950 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.463 ms - -[0m
+[0mGET /blogadd [32m200 [0m1.329 ms - 2734[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.467 ms - -[0m
+[0mPOST //api/blogs [33m404 [0m0.938 ms - 1413[0m
+/home/bitnami/blog/app_server/controllers/blog.js:33
+              _showError(req, res, response.statusCode);
+              ^
+
+ReferenceError: _showError is not defined
+    at Request._callback (/home/bitnami/blog/app_server/controllers/blog.js:33:15)
+    at Request.self.callback (/home/bitnami/blog/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/bitnami/blog/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/home/bitnami/blog/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+(node:31928) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogUser:password@localhost/blog
+[0mGET / [32m200 [0m9.774 ms - 1972[0m
+[0mGET /blogadd [32m200 [0m1.837 ms - 2734[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.434 ms - -[0m
+[0mGET //api/blogs [33m404 [0m10.111 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m36.566 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.407 ms - -[0m
+[0mGET /blogedit [33m404 [0m1.840 ms - 1418[0m
+[0mGET /blogdelete [33m404 [0m1.722 ms - 1418[0m
+[0mGET / [36m304 [0m2.171 ms - -[0m
+[0mGET /blogdelete [33m404 [0m1.086 ms - 1418[0m
+[0mGET /blogedit [33m404 [0m1.094 ms - 1418[0m
+[0mGET //api/blogs [33m404 [0m1.372 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m20.035 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.430 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.360 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.447 ms - -[0m
+[0mPOST //api/blogs [33m404 [0m1.004 ms - 1413[0m
+/home/bitnami/blog/app_server/controllers/blog.js:33
+              _showError(req, res, response.statusCode);
+              ^
+
+ReferenceError: _showError is not defined
+    at Request._callback (/home/bitnami/blog/app_server/controllers/blog.js:33:15)
+    at Request.self.callback (/home/bitnami/blog/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/bitnami/blog/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/home/bitnami/blog/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+(node:32002) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogUser:password@localhost/blog
+[0mGET / [36m304 [0m10.226 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.634 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.138 ms - -[0m
+[0mGET //api/blogs [33m404 [0m10.101 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m37.072 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.401 ms - -[0m
+[0mGET /blogedit [33m404 [0m1.895 ms - 1418[0m
+[0mGET //api/blogs [33m404 [0m2.091 ms - 1418[0m
+[0mGET /bloglist [36m304 [0m19.791 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.478 ms - -[0m
+[0mGET /blogadd [36m304 [0m2.250 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.499 ms - -[0m
+[0mPOST //api/blogs [33m404 [0m1.176 ms - 1413[0m
+/home/bitnami/blog/app_server/controllers/blog.js:33
+              _showError(req, res, response.statusCode);
+              ^
+
+ReferenceError: _showError is not defined
+    at Request._callback (/home/bitnami/blog/app_server/controllers/blog.js:33:15)
+    at Request.self.callback (/home/bitnami/blog/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (/home/bitnami/blog/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/home/bitnami/blog/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+(node:6385) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogUser:password@localhost/blog
+[0mGET / [36m304 [0m9.584 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.634 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m1.287 ms - -[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m31.202 ms - 332[0m
+[0mGET /bloglist [36m304 [0m43.109 ms - -[0m
+[0mGET /images/postImage.png [36m304 [0m0.494 ms - -[0m
+[0mGET /blogedit [33m404 [0m1.538 ms - 1418[0m
+[0mGET / [36m304 [0m1.743 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.326 ms - -[0m
+[0mGET /images/construction.gif [36m304 [0m0.484 ms - -[0m
+[0mGET /blogedit [33m404 [0m1.436 ms - 1418[0m
+[0mGET /blogadd [32m200 [0m1.891 ms - 2734[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.519 ms - -[0m
+[0mGET / [32m200 [0m1.464 ms - 1972[0m
+[0mGET /blogAdd [32m200 [0m1.474 ms - 2734[0m
+[0mGET /blogAdd [32m200 [0m1.135 ms - 2734[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.553 ms - -[0m
+{ blog_title: 'whyyyyyy', blog_text: '', createdOn: 1603229431793 }
+{
+  _id: 5f8f56f73ace0e18f15aa4dd,
+  blog_title: 'whyyyyyy',
+  blog_text: '',
+  createdOn: 2020-10-20T21:30:31.800Z,
+  __v: 0
+}
+[0mPOST /api/blogs [32m201 [0m13.886 ms - 120[0m
+[0mPOST /blogadd [36m302 [0m22.224 ms - 62[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.921 ms - 445[0m
+[0mGET /blogList [32m200 [0m22.785 ms - 4191[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.529 ms - -[0m
+[0mGET /blogdelete/5f8e50567320196ac89535b4 [33m404 [0m1.127 ms - 1418[0m
+[0mGET / [36m304 [0m1.340 ms - -[0m
+[0mGET /blogAdd [36m304 [0m1.114 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.440 ms - -[0m
+{ blog_title: 'whyyyyyy', blog_text: '', createdOn: 1603229449248 }
+{
+  _id: 5f8f57093ace0e18f15aa4de,
+  blog_title: 'whyyyyyy',
+  blog_text: '',
+  createdOn: 2020-10-20T21:30:49.250Z,
+  __v: 0
+}
+[0mPOST /api/blogs [32m201 [0m3.066 ms - 120[0m
+[0mPOST /blogadd [36m302 [0m6.526 ms - 62[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.571 ms - 558[0m
+[0mGET /blogList [32m200 [0m8.362 ms - 4674[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.433 ms - -[0m
+[0mGET /blogdelete/5f8e505e7320196ac89535b5 [33m404 [0m1.092 ms - 1418[0m
+[0mGET / [36m304 [0m1.083 ms - -[0m
+[0mGET /blogEdit [33m404 [0m1.038 ms - 1418[0m
+[0mGET /blogDelete [33m404 [0m1.030 ms - 1418[0m
+[0mGET /api/blogs/blogList [33m404 [0m2.008 ms - 30[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs/ [32m200 [0m3.586 ms - 558[0m
+[0mGET /api/blogs/blogEdit/5f8e50567320196ac89535b4 [33m404 [0m1.078 ms - 1406[0m
+[0mGET /api/blogs/blogedit/5f8e50567320196ac89535b4 [33m404 [0m1.043 ms - 1406[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs/ [32m200 [0m3.392 ms - 558[0m
+[0mGET /blogDelete [33m404 [0m1.045 ms - 1418[0m
+[0mGET /blogEdit [33m404 [0m1.081 ms - 1418[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.285 ms - 558[0m
+[0mGET /blogList [36m304 [0m6.685 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.418 ms - -[0m
+[0mGET /blogedit/5f8e50567320196ac89535b4 [33m404 [0m1.003 ms - 1418[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.158 ms - 558[0m
+[0mGET /blogList [32m200 [0m6.851 ms - 4675[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.480 ms - -[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.189 ms - 558[0m
+[0mGET /blogList [36m304 [0m6.909 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.464 ms - -[0m
+[0mGET /blogEdit [33m404 [0m1.016 ms - 1418[0m
+[0mGET /blogEdit/5f8e50567320196ac89535b4 [33m404 [0m1.011 ms - 1418[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.151 ms - 558[0m
+[0mGET /blogList [32m200 [0m6.635 ms - 4685[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.492 ms - -[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.030 ms - 558[0m
+[0mGET /blogList [36m304 [0m7.902 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.446 ms - -[0m
+[0mGET /blogEdit [33m404 [0m1.078 ms - 1418[0m
+[0mGET /blog-edit [33m404 [0m0.977 ms - 1418[0m
+[0mGET /blog-edit/5f8e50567320196ac89535b4 [33m404 [0m0.962 ms - 1418[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.246 ms - 558[0m
+[0mGET /blogList [32m200 [0m6.723 ms - 4435[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.389 ms - -[0m
+[0mGET /blogedit/ [33m404 [0m1.054 ms - 1418[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m4.014 ms - 558[0m
+[0mGET /blogList [36m304 [0m7.603 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.354 ms - -[0m
+[
+  {
+    _id: 5f8e50567320196ac89535b4,
+    blog_title: '',
+    blog_text: 'test',
+    createdOn: 2020-10-20T02:49:58.677Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e505e7320196ac89535b5,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-10-20T02:50:06.171Z,
+    __v: 0
+  },
+  {
+    _id: 5f8e5f7d41369f70fc7f5f84,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T03:54:37.125Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f56f73ace0e18f15aa4dd,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:31.800Z,
+    __v: 0
+  },
+  {
+    _id: 5f8f57093ace0e18f15aa4de,
+    blog_title: 'whyyyyyy',
+    blog_text: '',
+    createdOn: 2020-10-20T21:30:49.250Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.185 ms - 558[0m
+[0mGET /blogList [36m304 [0m6.498 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.373 ms - -[0m
+[0mGET /blogedit/ [33m404 [0m1.064 ms - 1418[0m

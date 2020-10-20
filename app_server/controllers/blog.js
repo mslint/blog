@@ -111,7 +111,7 @@ module.exports.editPost = function(req, res){
 	requestOptions,
         function(err, response, body) {
             if (response.statusCode === 201) {
-                res.redirect('/bloglist');
+                res.redirect('/blogList');
             } else {
                 _showError(req, res, response.statusCode);
             }
@@ -163,7 +163,7 @@ module.exports.deletePost = function(req, res){
         requestOptions,
         function(err, response, body) {
             if (response.statusCode === 204) {
-                res.redirect('/bloglist');
+                res.redirect('/blogList');
             } else {
                 _showError(req, res, response.statusCode);
             }
