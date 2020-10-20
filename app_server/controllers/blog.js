@@ -1,13 +1,13 @@
 var request = require('request');
 var apiOptions = {
-  server : "http://18.218.212.26"
+  server : "http://18.218.212.26" // Change as needed
 };         
 
-module.exports.blogadd = function(req, res){
+module.exports.blogAdd = function(req, res){
 	res.render('blog-add', {title: 'Blog Add'});
 };
 
-//Blog Add
+/* Blog Add Post */
 module.exports.addBlog = function(req, res){
     var requestOptions, path, postdata;
     path = '/api/blogs';
@@ -28,7 +28,7 @@ module.exports.addBlog = function(req, res){
       requestOptions,
       function(err, response, body) {
          if (response.statusCode === 201) {
-              res.redirect('/bloglist');
+              res.redirect('/blogList');
          } else {
               _showError(req, res, response.statusCode);
          }
@@ -36,7 +36,7 @@ module.exports.addBlog = function(req, res){
     );
 };
 
-module.exports.bloglist = function(req, res){
+module.exports.blogList = function(req, res){
 	var requestOptions, path;
     	path = '/api/blogs';
     	requestOptions = { 
@@ -53,7 +53,7 @@ module.exports.bloglist = function(req, res){
     );
 };
 
-//Blog List
+/* Render the blog list page */
 var renderListPage = function(req, res, responseBody){
     res.render('blog-list', {
         title: 'Blog List',
@@ -64,7 +64,7 @@ var renderListPage = function(req, res, responseBody){
     });
 };
 
-module.exports.readOne = function(req, res){
+module.exports.blogEdit = function(req, res){
     var requestOptions, path;
     path = "/api/blogs/" + req.params.blogid;
     requestOptions = {
@@ -80,7 +80,7 @@ module.exports.readOne = function(req, res){
     );
 };
 
-//Blog Edit
+/* Render the blog edit page */
 var renderEditPage = function(req, res, responseBody){
     res.render('blog-edit', {
         title: 'Edit Blog',
@@ -119,8 +119,8 @@ module.exports.editPost = function(req, res){
     );
 };
 
-//Blog Delete
-module.exports.blogdelete = function(req, res){
+/* Blog Delete */
+module.exports.blogDelete = function(req, res){
     var requestOptions, path;
     path = "/api/blogs/" + req.params.blogid;
     requestOptions = {
@@ -136,6 +136,7 @@ module.exports.blogdelete = function(req, res){
     );
 };
 
+/* Render the blog delete page */
 var renderDeletePage = function(req, res, responseBody){
         res.render('blog-delete', {
         title: 'Delete Blog',
@@ -146,6 +147,7 @@ var renderDeletePage = function(req, res, responseBody){
     });
 };
 
+/* Blog Delete Post */
 module.exports.deletePost = function(req, res){
     var requestOptions, path, postdata;
     var id = req.params.blogid;

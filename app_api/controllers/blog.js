@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var Blog = mongoose.model('Blog');
+var Blog = mongoose.model('blogs');
+
 var sendJSONresponse = function(res, status, content) {
   res.status(status);
   res.json(content);
@@ -25,19 +26,17 @@ module.exports.blogList = function (req, res) {
 };
 
 var buildBlogList = function(req, res, results) {
-  var blogs = [];
+  var blogList = [];
   results.forEach(function(obj) {
-      blogs.push({
+    blogList.push({
       blog_title: obj.blog_title,
       blog_text: obj.blog_text,
       createdOn: obj.createdOn,
       _id: obj._id
     });
   });
-  return blogs;
+  return blogList;
 };
-
-
 
 module.exports.blogReturnOne = function (req, res) {
  if (req.params && req.params.blogid) {
@@ -65,53 +64,53 @@ module.exports.blogReturnOne = function (req, res) {
   }
 };
 
-module.exports.blogAddOne = function (req, res) {
-   console.log(req.body);
-  Blog
-   .create({
-      blog_title: req.body.blog_title,
-      blog_text: req.body.blog_text
-       }
-       ,function(err, blog) {
-       if (err) {
-          console.log(err);
-          sendJSONresponse(res, 400, err);
-       } else {
-          console.log(blog);
-          sendJSONresponse(res, 201, blog);
-       }
-     }
-   );
-};
-
-module.exports.blogUpdate = function (req, res) {
-   console.log("Updating a book entry with id of " + req.params.blogid);
-    Blog
-  	  .findOneAndUpdate(
-	     { _id: req.params.blogid },
- 	     { $set: {"blog_title": req.body.blog_title, "blog_text": req.body.blog_text}},
-	     function(err, response) {
-	         if (err) {
-	  	         sendJSONresponse(res, 400, err);
-	         } else {
-		        sendJSONresponse(res, 201, response);
-	        }
-	    }
+module.exports.blogAdd = function (req, res) {
+    console.log(req.body);
+   Blog
+    .create({
+       blog_title: req.body.blog_title,
+       blog_text: req.body.blog_text
+        }
+        ,function(err, blog) {
+        if (err) {
+           console.log(err);
+           sendJSONresponse(res, 400, err);
+        } else {
+           console.log(blog);
+           sendJSONresponse(res, 201, blog);
+        }
+      }
     );
-};
+ };
 
-module.exports.blogDelete = function (req, res) {
-  console.log("Deleting blog entry with id of " + req.params.blogid);
-  console.log(req.body);
-    Blog
-        .findByIdAndRemove(req.params.blogid)
-        .exec (
-            function(err, response) {
-                if (err) {
-                            sendJSONresponse(res, 404, err);
-                } else {
-                            sendJSONresponse(res, 204, null);
-                }
-            }
-        );
-};
+ module.exports.blogEdit = function (req, res) {
+    console.log("Updating a book entry with id of " + req.params.blogid);
+     Blog
+         .findOneAndUpdate(
+          { _id: req.params.blogid },
+           { $set: {"blog_title": req.body.blog_title, "blog_text": req.body.blog_text}},
+          function(err, response) {
+              if (err) {
+                    sendJSONresponse(res, 400, err);
+              } else {
+                 sendJSONresponse(res, 201, response);
+             }
+         }
+     );
+ };
+ 
+ module.exports.blogDelete = function (req, res) {
+    console.log("Deleting blog entry with id of " + req.params.blogid);
+    console.log(req.body);
+      Blog
+          .findByIdAndRemove(req.params.blogid)
+          .exec (
+              function(err, response) {
+                  if (err) {
+                              sendJSONresponse(res, 404, err);
+                  } else {
+                              sendJSONresponse(res, 204, null);
+                  }
+              }
+          );
+  };

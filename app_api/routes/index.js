@@ -1,12 +1,19 @@
 var express = require('express');
 var router = express.Router();
-var blogCtrl  = require('../controllers/blog');
+var blogCtrl = require('../controllers/blog');
 
-/* Setting up routes */
+/* GET home page. */
+//list
 router.get('/blogs', blogCtrl.blogList);
 router.get('/blogs/:blogid', blogCtrl.blogReturnOne);
-router.post('/blogs', blogCtrl.blogAddOne);
-router.put('/blogs/:blogid', blogCtrl.blogUpdate);
+
+//add
+router.post('/blogs', blogCtrl.blogAdd);
+
+//edit
+router.put('/blogs/:blogid', blogCtrl.blogEdit);
+
+//delete
 router.delete('/blogs/:blogid', blogCtrl.blogDelete);
 
-module.exports = router;    
+module.exports = router;

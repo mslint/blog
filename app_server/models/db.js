@@ -1,7 +1,7 @@
 var mongoose = require( 'mongoose' );
 var gracefulShutdown;
 //var dbURI = 'mongodb://localhost/Loc8r';
-var dbURI = 'mongodb://blogUser:password@localhost/blog';
+var dbURI = 'mongodb://blogUser:password@localhost/blogs';
 mongoose.connect(dbURI, {useNewUrlParser: true});
 //mongoose.connect(dbURI);
 

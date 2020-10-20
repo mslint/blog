@@ -3,12 +3,10 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var bodyParser = require('body-parser');
-require('./app_api/models/db');
+require('./app_api/models/db',{useUnifiedTopology: true});
 var routes = require('./app_server/routes/index');
 var routes_api = require('./app_api/routes/index');
 
-//require('./app_server/models/db',{useUnifiedTopology: true});
 var app = express();
 
 //view engine setup
