@@ -42,7 +42,6 @@ app.config(function ($locationProvider, $routeProvider) {
 app.controller('homeCtrl', function homeCtrl() {
     	var vm = this;
     	vm.title = "Maryann Lint's Blog Site";
-    	vm.message = "This is the home page";
 });
 
 app.controller('listCtrl',['$http', '$scope',  function listCtrl($http, $scope){
@@ -118,7 +117,7 @@ app.controller('deleteCtrl', [ '$http', '$routeParams', '$scope','$location', fu
     readOneBlog($http, vm.id)
     	.then(function(data) {
     		$scope.blog = data.data;
-    		vm.message = "Are you sure you wish to delete this blog?"
+    		vm.message = "Are you sure you want to delete this item?"
 	},
     	function(e) {
     	vm.message = "Could not get blog with id: " + vm.id;

@@ -14,10 +14,18 @@
       		crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.28/angular-ui-router.min.js"> </script>
   	</head>
+
+	<style>
+		body {
+		background-image: url(images/bg3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+	</style>
   	<body>
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  			<a class="navbar-brand" href="/"><i class="fas fa-home"></i>  My Blog</a>
+  			<a class="navbar-brand" href="/">  My Blog</a>
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     				<span class="navbar-toggler-icon"></span>
   			</button>
@@ -25,10 +33,10 @@
   			<div class="collapse navbar-collapse" id="navbarSupportedContent">
     				<ul class="navbar-nav mr-auto">
       					<li class="nav-item">
-        					<a class="nav-link" href="/blogadd"><i class="fas fa-plus-circle"></i> Blog Add</a>
+        					<a class="nav-link" href="/blogadd"> Blog Add</a>
       					</li>	
       					<li class="nav-item">
-        					<a class="nav-link"href="/bloglist"> <i class="fas fa-list-alt"></i> Blog List</a>
+        					<a class="nav-link"href="/bloglist"> Blog List</a>
       					</li>
     				</ul>
 			</div>
@@ -38,8 +46,7 @@
 		<script type="text/ng-template" id="pages/home.html">
 			<div class="container">
 	   	 		<div class = jumbotron>
-					<h1>{{vm.title}}</h1>
-					<h4>{{vm.message}}</h4>
+					<h1><img src="images/profile.jpg" style="width:200px;height:200px;">{{vm.title}}</h1>
 	    			</div>
    			 </div>
    	 	</script>
@@ -106,8 +113,6 @@
 						<a href="/bloglist" > Cancel </a>
 					</form>
 			</div>
-
-
 
 		</script>
 
