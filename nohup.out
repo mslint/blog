@@ -1345,3 +1345,31 @@ Mongoose connected to mongodb://blogUser:password@localhost/blog
 [0mGET /blogList [36m304 [0m6.498 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.373 ms - -[0m
 [0mGET /blogedit/ [33m404 [0m1.064 ms - 1418[0m
+(node:1553) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogUser:password@localhost/blog
+[0mGET / [32m200 [0m6.450 ms - 6303[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.749 ms - 4734[0m
+[0mGET /bloggerApp.js [32m200 [0m1.572 ms - 3844[0m
+[0mGET /images/profile.jpg [32m200 [0m3.827 ms - 16246[0m
+[0mGET /images/bg3.jpg [32m200 [0m2.461 ms - 674846[0m
+[0mGET /favicon.ico [32m200 [0m2.611 ms - 6303[0m
+[0mGET /favicon.ico [36m304 [0m1.322 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.751 ms - -[0m
+[
+  {
+    _id: 5faa54e24e5e000d9f3f7fd1,
+    blog_title: 'test',
+    blog_text: '',
+    createdOn: 2020-11-10T08:52:50.023Z,
+    __v: 0
+  },
+  {
+    _id: 5faa5a6ced4a900dea2d8de5,
+    blog_title: 'test2',
+    blog_text: '',
+    createdOn: 2020-11-10T09:16:28.097Z,
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m22.369 ms - 220[0m
+[0mGET /favicon.ico [36m304 [0m0.732 ms - -[0m
