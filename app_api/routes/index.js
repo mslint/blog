@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var blogCtrl = require('../controllers/blog');
 
-/* GET home page. */
 //list
 router.get('/blogs', blogCtrl.blogList);
 router.get('/blogs/:blogid', blogCtrl.blogReturnOne);
