@@ -22,4 +22,7 @@ router.put('/blogs/:blogid', blogCtrl.blogEdit);
 //delete
 router.delete('/blogs/:blogid', blogCtrl.blogDelete);
 
+router.post('/register', ctrlAuth.register);
+router.post('/login', ctrlAuth.login);
+
 module.exports = router;

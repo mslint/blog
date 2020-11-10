@@ -181,7 +181,7 @@ app.controller('editCtrl', [ '$http', '$routeParams', '$scope', '$location', 'au
 
     	updateOneBlog($http, data, vm.id, authentication)
     		.then(function(data) {
-    		    vm.message = "Blog Updated!";
+    		    vm.message = "Blog Updated Successfully";
     		    $location.path('/bloglist');
     		},
     		function(e) {
@@ -220,7 +220,7 @@ app.controller('deleteCtrl', [ '$http', '$routeParams', '$scope','$location', 'a
 app.controller('loginCtrl', [ '$http', '$location', 'authentication', function loginCtrl($htttp, $location, authentication) {
     var vm = this;
 
-    vm.title = 'Sign in to Blogger';
+    vm.title = 'Sign in';
 
     vm.credentials = {
       email : "",
@@ -255,7 +255,7 @@ app.controller('loginCtrl', [ '$http', '$location', 'authentication', function l
 app.controller('registerCtrl', [ '$http', '$location', 'authentication', function registerCtrl($htttp, $location, authentication) {
     var vm = this;
 
-    vm.title = 'Create a new Blogger account'
+    vm.title = 'Create a new account'
 
     vm.credentials = {
       name : "",
