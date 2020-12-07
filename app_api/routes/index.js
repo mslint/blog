@@ -8,10 +8,12 @@ var auth = jwt({
 });
 var blogCtrl = require('../controllers/blog');
 var ctrlAuth = require('../controllers/authentication');
+var ctrlChat = require('../controllers/chatBackend');
 
 //list
 router.get('/blogs', blogCtrl.blogList);
 router.get('/blogs/:blogid', blogCtrl.blogReturnOne);
+router.get('/chat', ctrlChat.getChats);
 
 //add
 router.post('/blogs', blogCtrl.blogAdd);

@@ -6,9 +6,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var passport = require('passport');
+var socketIO = require("socket.io");
+
 require('./app_api/models/db');
-var routes_api = require('./app_api/routes/index');
 require('./app_api/config/passport');
+var routes_api = require('./app_api/routes/index');
+
 
 var app = express();
 

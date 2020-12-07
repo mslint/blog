@@ -1,4 +1,6 @@
 var mongoose = require( 'mongoose' );
+//mongoose.Promise = require("bluebird");
+mongoose.Promise = require('bluebird');
 var gracefulShutdown;
 var dbURI = 'mongodb://blogUser:password@localhost/blog';
 mongoose.connect(dbURI, {useNewUrlParser: true});
@@ -45,3 +47,4 @@ process.on('SIGTERM', function() {
 
 require('./blogs');
 require('./users');
+require('./chat');
