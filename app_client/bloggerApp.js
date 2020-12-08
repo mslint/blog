@@ -122,13 +122,13 @@ app.config(function ($locationProvider, $routeProvider) {
     });
 
 app.controller('homeCtrl', function homeCtrl() {
-    	var vm = this;
-    	vm.title = "Maryann Lint's Blog Site";
+      var vm = this;
+    	vm.title = "     Maryann Lint's Blog Site";
 });
 
 app.controller('listCtrl',['$http', '$scope', 'authentication', function listCtrl($http, $scope, authentication){
 	var vm = this;
-	vm.title = "Blog List";
+	vm.title = "List of Posts";
 	
 	 vm.isLoggedIn = function() {
         	return authentication.isLoggedIn();
@@ -144,14 +144,14 @@ app.controller('listCtrl',['$http', '$scope', 'authentication', function listCtr
 			  console.log(data);
 		  },
 		  function (e){
-			  vm.message = "Could not get blog list";
+			  vm.message = "Could not get the post list";
 		  });
 }]);
 
 app.controller('addCtrl',[ '$http', '$location', 'authentication' , function addCtrl($http, $location, authentication) {
 	var vm = this;
     	vm.blog = {};
-    	vm.title = "Add A New Blog";
+    	vm.title = "Write a New Post";
 	
          vm.onSubmit = function() {
 
@@ -175,7 +175,7 @@ app.controller('addCtrl',[ '$http', '$location', 'authentication' , function add
 
 app.controller('editCtrl', [ '$http', '$routeParams', '$scope', '$location', 'authentication',  function editCtrl($http, $routeParams, $scope, $location, authentication) {
     var vm = this;
-    vm.title = "Edit Blog";
+    vm.title = "Edit Post";
     vm.id = $routeParams.id;
 
     readOneBlog($http, vm.id)
@@ -183,7 +183,7 @@ app.controller('editCtrl', [ '$http', '$routeParams', '$scope', '$location', 'au
     		$scope.blog = data.data;
     },
     function(e) {
-    	vm.message = "Could not get blog with id: " + vm.id;
+    	vm.message = "Could not get post with id: " + vm.id;
     });
 
     vm.onSubmit = function() {
@@ -193,18 +193,18 @@ app.controller('editCtrl', [ '$http', '$routeParams', '$scope', '$location', 'au
 
     	updateOneBlog($http, data, vm.id, authentication)
     		.then(function(data) {
-    		    vm.message = "Blog Updated Successfully";
+    		    vm.message = "Post Updated Successfully";
     		    $location.path('/bloglist');
     		},
     		function(e) {
-    			vm.message = "Could not update blog with id: " + vm.id;
+    			vm.message = "Could not update post with id: " + vm.id;
     		});
     }
 }]);
 
 app.controller('deleteCtrl', [ '$http', '$routeParams', '$scope','$location', 'authentication', function deleteCtrl($http, $routeParams, $scope, $location, authentication) {
     var vm = this;
-    vm.title = "Delete Your Blog";
+    vm.title = "Delete Your Post";
     vm.id = $routeParams.id;
     readOneBlog($http, vm.id)
     	.then(function(data) {
@@ -212,18 +212,18 @@ app.controller('deleteCtrl', [ '$http', '$routeParams', '$scope','$location', 'a
     		vm.message = "Are you sure you want to delete this item?"
 	},
     	function(e) {
-    	vm.message = "Could not get blog with id: " + vm.id;
+    	vm.message = "Could not get post with id: " + vm.id;
     });
 
     vm.onSubmit = function() {
 
     	deleteOneBlog($http,vm.id, authentication)
     		.then(function(data) {
-    		    vm.message = "Blog Deleted Successfully";
+    		    vm.message = "Post Deleted Successfully";
     		    $location.path('/bloglist');
     		},
     		function(e) {
-    			vm.message = "Could not update blog with id: " + vm.id;
+    			vm.message = "Could not update post with id: " + vm.id;
     		});
     }
 
@@ -266,13 +266,13 @@ app.controller('loginCtrl', [ '$http', '$location', 'authentication', function l
 app.controller('chatCtrl', ['$http', '$location', '$scope', 'authentication', function ctrlChat($http, $location, $scope, authentication){
 	var vm = this;
 	vm.title = 'Chat';
-	vm.message = 'Chat with users on the site!';
+	vm.message = 'Chat with other users on the site';
 
 	getAllChats($http, authentication)
 	  .then(function(data){
   	    $scope.chat = data.data;
             console.log(data);
-	    vm.message = "Chat away..."
+	    vm.message = "Chat Page"
 	  },
           function(e){
 
