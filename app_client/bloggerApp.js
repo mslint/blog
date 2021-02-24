@@ -106,9 +106,9 @@ app.config(function ($locationProvider, $routeProvider) {
         controllerAs: 'vm'
       })
 
-      .when('/chat', {
-        templateUrl: 'pages/chat.html',
-              controller: 'chatCtrl',
+      .when('/comment/:id', {
+      templateUrl: 'pages/comment.html',
+      controller: 'commentCtrl',
               controllerAs: 'vm'      
       })
 
@@ -188,8 +188,8 @@ app.controller('editCtrl', [ '$http', '$routeParams', '$scope', '$location', 'au
 
     vm.onSubmit = function() {
     	var data = {};
-    	data.blog_title = userForm.blog_title.value;
-    	data.blog_text = userForm.blog_text.value;
+    	data.blogTitle = userForm.blogTitle.value;
+    	data.blogText = userForm.blogText.value;
 
     	updateOneBlog($http, data, vm.id, authentication)
     		.then(function(data) {
@@ -263,20 +263,36 @@ app.controller('loginCtrl', [ '$http', '$location', 'authentication', function l
         };
  }]);
 
-app.controller('chatCtrl', ['$http', '$location', '$scope', 'authentication', function ctrlChat($http, $location, $scope, authentication){
-	var vm = this;
-	vm.title = 'Chat';
-	vm.message = 'Chat with other users on the site';
+ app.controller('commentCtrl', [ '$http', '$routeParams', '$scope', '$location', 'authentication',  function commentCtrl($http, $routeParams, $scope, $location, authentication) {
+  var vm = this;
+  vm.title = "comment on this post";
+    vm.id = $routeParams.id;
+    vm.comment = {};
+    getComments($http, vm.id)
+	.then(function(data) {
+	    $scope.comments = data.data;
+	    console.log(data);
+	    vm.message = "comments retreived";
+	},
+		function(e){
+		  vm.message = "couldn't add comment";
+	      });
 
-	getAllChats($http, authentication)
-	  .then(function(data){
-  	    $scope.chat = data.data;
-            console.log(data);
-	    vm.message = "Chat Page"
-	  },
-          function(e){
 
-	  });
+	vm.onSubmit = function() {
+                 var data = vm.comment;
+		data.commentID = vm.id;
+		data.commentName = authentication.currentUser().name;
+		data.commentText = userForm.commentText.value;
+
+  		 addComment($http, data, vm.id, authentication)
+			.then(function(data) {
+			$location.path('/comment/' + vm.id);
+			},
+			function(e){
+				vm.message ="couldnt add one";
+			});
+	}
 }]);
 
 app.controller('registerCtrl', [ '$http', '$location', 'authentication', function registerCtrl($htttp, $location, authentication) {
@@ -357,6 +373,10 @@ function deleteOneBlog($http, blogid, authentication) {
     return $http.delete('/api/blogs/' + blogid, { headers: { Authorization: 'Bearer '+ authentication.getToken() }});
 }
 
-function getAllChats($http, authentication){
-	return $http.get('/api/chat', {headers: {Authorization: 'Bearer ' + authentication.getToken()}});
-}	
+function addComment($http, data, blogid, authentication){
+  return $http.post('/api/blog/comment/' + blogid, data, {headers: { Authorization: 'Bearer '+ authentication.getToken()}});
+}
+
+function getComments($http, blogid){
+  return $http.get('/api/blog/comment/' + blogid);
+}

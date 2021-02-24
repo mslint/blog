@@ -53,6 +53,7 @@
 								<p class="card-text"> Published by: <b>{{blog.blog_userName}}</b> on <i>{{blog.createdOn | date:'short' }}</i></p>
 								<a ng-show="vm.isLoggedIn() && vm.correctUser() === blog.blog_userName" href="/blogedit/{{blog._id}}" class="card-link"><i class="fas fa-edit"></i></a>
 								<a ng-show="vm.isLoggedIn() && vm.correctUser() === blog.blog_userName" href="/blogdelete/{{blog._id}}" class="card-link"><i class="fas fa-trash-alt"></i></a>
+								<a ng-show="vm.isLoggedIn()" href="/comment/{{blog._id}}">>Comment<</a>
 							</div>
 						</div>
 					</div>
@@ -60,25 +61,23 @@
 			</div>
     		</script>
 
-		<script type="text/ng-template" id="pages/blogadd.html">
-			<div class = "container">
-	    			<div class = "jumbotron">
-					<h1>{{vm.title}}</h1>
-					<h4>{{vm.message}}</h4>
-	    		</div>
-			<form name="userForm" ng-Controller="addCtrl" ng-submit="vm.onSubmit()">
-  				<div class="form-group">
-    					<label for="blog_title">Blog Title:</label>
-    					<input type="text" class="form-control" placeholder="Enter Blog Title" id="blog_title" name="blog_title">
-  				</div>	
-  				<div class="form-group">
-    					<label for="blog_text">Blog Text:</label>
-    					<input type="text" class="form-control" placeholder="Enter Blog Text" id="blog_text" name="blog_text">
-  				</div>
-  				<button type="submit" class="btn btn-primary">Submit</button>
-			</form>
-			</div>
-		</script>
+			<script type="text/ng-template" id="pages/blogadd.html">
+				<div id='home'>
+					<p id="homeTitle">{{vm.title}}</p>
+				</div>
+				<form name="userForm" ng-Controller="addCtrl" ng-submit="vm.onSubmit()">
+					<div class="form-group">
+						  <label id= "blogAddLabel">PinG Title:</label>
+						  <input type="text" class="form-control" placeholder="Enter the PinG Title" id="blogTitle" name="blogTitle">
+					</div>	
+					<div class="form-group">
+						<label id="blogAddLabel" for="blogText">PinG Text:</label>
+						<textarea type="text" class="form-control" name="blogText" rows="20" placeholder="PinG Goes Here!"></textarea>
+					</div>
+					<button type="submit">Submit</button>
+			    </form>
+			</script>
+
 
 		<script type="text/ng-template" id="pages/blogdelete.html">
 			<div class = "container">
@@ -123,13 +122,21 @@
 	   	</div>
 		</script>
 
-		<script type="text/ng-template" id="pages/chat.html">
-			<div class="container">
-			  <div class="jumbotron">
-				<h1 class="title">{{vm.title}}</h1>
-				<h4 class="message">{{vm.message}}</h4>
-			  </div>
+		<script type="text/ng-template" id="pages/comment.html">
+			<div id='home'>
+				<p id="homeTitle">{{vm.title}}</p>
 			</div>
+			<!-- <div ng-Controller="commentCtrl">
+				<div id="blogAddLabel" ng-repeat="comment in comments" ng-show="{{comment.commentID === vm.id}}">
+					<p>{{comment.commentText}}     {{comment.commentName}}      {{comment.commentDateStamp}}</p>
+				</div>
+			</div> -->
+			<form name="userForm" ng-Controller="commentCtrl" ng-submit="vm.onSubmit()">
+				<div class="form-group">
+					<input type="text" id="commentBlock" class="form-control" name="commentText"> 
+				</div>
+				<button type="submit">Comment</button>
+			</form>
 		</script>
 		<!-- Angular View (dynamic content goes here) -->
 		

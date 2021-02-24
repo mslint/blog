@@ -1,15 +1,26 @@
 var mongoose = require('mongoose');
+
 var blogSchema = new mongoose.Schema({
-	blog_title: String,
-	blog_text: String,
-	blog_userName: String,
-	blog_email: String,
-	blog_userName: String,
-	blog_email: String,
-	createdOn: {
-		type: Date,
-		"default": Date.now
-	}
+    blogTitle: String,
+    blogText: String,
+    email: String,
+    userName: String,
+    dateStamp: {
+        type: Date,
+        "default": Date.now
+    },
+});                
+
+var commentSchema = new mongoose.Schema({
+    commentID: String,
+    commentText: String,
+    commentName: String,
+    commentDate: {
+	    type: Date,
+	    "default": Date.now
+    },
+
 });
 
 mongoose.model('blogs', blogSchema);
+mongoose.model('Comment', commentSchema);

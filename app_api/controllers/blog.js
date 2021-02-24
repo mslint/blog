@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var Blog = mongoose.model('blogs');
+var Comment = mongoose.model('Comment');
 
 var sendJSONresponse = function(res, status, content) {
   res.status(status);
@@ -118,3 +119,60 @@ module.exports.blogAdd = function (req, res) {
               }
           );
   };
+
+  
+/* Add comment to ping */
+module.exports.commentAdd = function(req, res) {
+       console.log(req.body);
+       Comment
+    .create({
+      commentID: req.body.commentID,
+      commentText: req.body.commentText,
+      commentName: req.body.commentName,
+      commentDateStamp: req.body.commentDateStamp
+    }, function(err, comment) {
+      if (err) {
+        console.log(err);
+        sendJSONresponse(res, 400, err);
+      } else {
+      //	console.log(comment);
+        sendJSONresponse(res, 201, comment);
+      }
+    }
+    );
+  
+  };
+  
+  
+  module.exports.commentGet = function(req, res){
+    console.log('Getting list of comments');
+    Comment
+      .find()
+      .exec(function(err, results){
+        if(!results){
+          sendJSONresponse(res, 404, {
+            "message": "no comments found"
+          });
+          return;
+        } else if (err){
+          console.log(err);
+          sendJSONresponse(res, 404, err);
+          return;
+        }
+        console.log(results);
+        sendJSONresponse(res, 200, buildCommentList(req, res, results));
+      });
+  };
+  var buildCommentList = function(req, res, results){
+    var comments = [];
+    results.forEach(function(obj) {
+      comments.push({
+        commentID: obj.commentID,
+        commentText: obj.commentText,
+        commentName: obj.commentName,
+        commentDate: obj.commentDate
+        });
+    });
+    return comments;
+  };
+  
